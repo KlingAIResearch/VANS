@@ -79,7 +79,6 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 <div align="center">
 
-#### 💫 Scenario 1
 <table>
 <tr>
 <td align="center" colspan="3"><strong>Input Video</strong></td>
@@ -105,7 +104,6 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 </table>
 
-#### 💫 Scenario 2
 <table>
 <tr>
 <td align="center" colspan="3"><strong>Input Video</strong></td>
