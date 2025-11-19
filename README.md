@@ -7,7 +7,7 @@
 [Xin Tao<sup>2</sup>](https://www.xtao.website/),
 [Jing Liao<sup>1</sup>](https://scholar.google.com/citations?user=3s9f9VIAAAAJ&hl=en)  
 <sup>1</sup>City University of Hong Kong  <sup>2</sup>Kling Team, Kuaishou Technology  
-<sup>†</sup> Work conducted during internship at Kling Team, Kuaishou Technology
+<sup>†</sup> This work was conducted during the author's internship at Kling Team, Kuaishou Technology
 
 <a href="https://video-as-answer.github.io/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Website-Video--as--Answer-blue.svg" height="20" />
