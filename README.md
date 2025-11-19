@@ -67,15 +67,11 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 | Case | Input Video | Question | VANS Output |
 |:----:|:-----------:|:--------:|:----------:|
-| 1 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/input.gif" type="video/mp4"></video> | "Show me the next step for baked chicken Parmesan." | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/jointgrpo.gif" type="video/mp4"></video> |
-| 2 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/input.gif" type="video/mp4"></video> | "Hi, I want to make slime. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/jointgrpo.gif" type="video/mp4"></video> |
-| 3 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/input.gif" type="video/mp4"></video> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/jointgrpo.gif" type="video/mp4"></video> |
-| 4 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/input.gif" type="video/mp4"></video> | "Hi, I'm making Samosa and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/jointgrpo.gif" type="video/mp4"></video> |
-| 5 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/input.gif" type="video/mp4"></video> | "My bike tire is flat. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/jointgrpo.gif" type="video/mp4"></video> |
+| 1 | <img src="assets/videos/proce_1/input.gif" width="120" height="120" style="border-radius:6px;" alt="Input Video 1"> | "Show me the next step for baked chicken Parmesan." | <img src="assets/videos/proce_1/jointgrpo.gif" width="120" height="120" style="border-radius:6px;" alt="Output Video 1"> |
+| 2 | <img src="assets/videos/proce_2/input.gif" width="120" height="120" style="border-radius:6px;" alt="Input Video 2"> | "Hi, I want to make slime. What should I do next?" | <img src="assets/videos/proce_2/jointgrpo.gif" width="120" height="120" style="border-radius:6px;" alt="Output Video 2"> |
+| 3 | <img src="assets/videos/proce_3/input.gif" width="120" height="120" style="border-radius:6px;" alt="Input Video 3"> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <img src="assets/videos/proce_3/jointgrpo.gif" width="120" height="120" style="border-radius:6px;" alt="Output Video 3"> |
 
 </div>
-
----
 
 ### 🔮 Multi-Future Prediction
 
@@ -86,13 +82,11 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 #### 🎬 Scenario 1: Kitchen Reaction
 <table>
 <tr>
-<td align="center" colspan="4"><strong>Input Video</strong></td>
+<td align="center" colspan="3"><strong>Input Video</strong></td>
 </tr>
 <tr>
-<td align="center" colspan="4">
-<video width="200" height="150" controls style="border-radius:8px;">
-<source src="assets/videos/gen_1/input.gif" type="video/mp4">
-</video>
+<td align="center" colspan="3">
+<img src="assets/videos/gen_1/input.gif" width="200" height="150" style="border-radius:8px;" alt="Kitchen Input">
 </td>
 </tr>
 <tr>
@@ -102,21 +96,15 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 <tr>
 <td align="center">
-<video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_1/con1.gif" type="video/mp4">
-</video><br>
-<small>"What is her reaction<br>if she gets burned?"</small>
+<img src="assets/videos/gen_1/con1.gif" width="120" height="120" style="border-radius:6px;" alt="Realistic Reaction"><br>
+<small>"Gets burned?"</small>
 </td>
 <td align="center">
-<video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_1/con2.gif" type="video/mp4">
-</video><br>
+<img src="assets/videos/gen_1/con2.gif" width="120" height="120" style="border-radius:6px;" alt="Dramatic Reaction"><br>
 <small>"...in an exaggerated movie?"</small>
 </td>
 <td align="center">
-<video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_1/con3.gif" type="video/mp4">
-</video><br>
+<img src="assets/videos/gen_1/con3.gif" width="120" height="120" style="border-radius:6px;" alt="Comedic Reaction"><br>
 <small>"...eats something spicy?"</small>
 </td>
 </tr>
@@ -129,101 +117,26 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 <tr>
 <td align="center" colspan="3">
-<video width="200" height="150" controls style="border-radius:8px;">
-<source src="assets/videos/gen_2/input.gif" type="video/mp4">
-</video>
+<img src="assets/videos/gen_2/input.gif" width="200" height="150" style="border-radius:8px;" alt="Emotional Input">
 </td>
 </tr>
 <tr>
 <td align="center">
-<video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_2/con1.gif" type="video/mp4">
-</video><br>
+<img src="assets/videos/gen_2/con1.gif" width="120" height="120" style="border-radius:6px;" alt="Grandson Reaction"><br>
 <small>"Sees her grandson"</small>
 </td>
 <td align="center">
-<video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_2/con2.gif" type="video/mp4">
-</video><br>
+<img src="assets/videos/gen_2/con2.gif" width="120" height="120" style="border-radius:6px;" alt="Husband Reaction"><br>
 <small>"Sees her husband"</small>
 </td>
 <td align="center">
-<video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_2/con3.gif" type="video/mp4">
-</video><br>
+<img src="assets/videos/gen_2/con3.gif" width="120" height="120" style="border-radius:6px;" alt="Death Reaction"><br>
 <small>"Sees death personification"</small>
 </td>
 </tr>
 </table>
 
 </div>
-
-
-
-
-### 🔮 Multi-Future Prediction
-
-**Same input video, different questions lead to diverse future predictions:**
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" colspan="3"><strong>Input Video</strong></td>
-    </tr>
-    <tr>
-      <td align="center" colspan="3">
-        <video width="320" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/input.gif" type="video/mp4">
-        </video>
-      </td>
-    </tr>
-  </table>
-
-  <br>
-
-  <table>
-    <tr>
-      <td align="center"><strong>Question 1</strong></td>
-      <td align="center"><strong>Question 2</strong></td>
-      <td align="center"><strong>Question 3</strong></td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <em>"What is her reaction if she gets burned?"</em>
-      </td>
-      <td align="center" width="33%">
-        <em>"What is her reaction if she gets burned in an exaggerated movie?"</em>
-      </td>
-      <td align="center" width="33%">
-        <em>"What is her reaction if she eats something spicy in an exaggerated movie?"</em>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <video width="180" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/con1.gif" type="video/mp4">
-        </video>
-      </td>
-      <td align="center">
-        <video width="180" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/con2.gif" type="video/mp4">
-        </video>
-      </td>
-      <td align="center">
-        <video width="180" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/con3.gif" type="video/mp4">
-        </video>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><em>Realistic pain reaction</em></td>
-      <td align="center"><em>Dramatic overreaction</em></td>
-      <td align="center"><em>Comedic spicy reaction</em></td>
-    </tr>
-  </table>
-</div>
-
-**Key Insight:** VANS demonstrates strong conditional generation capabilities, producing contextually appropriate responses for different hypothetical scenarios.
 
 
 ## 🚀 Quick Start
