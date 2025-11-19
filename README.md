@@ -25,7 +25,7 @@
 
 <img src="images/teaser.png" alt="Teaser Image" style="width: 100%; height: auto;">
 
-We pioneer **Video-Next-Event Prediction (VNEP)**, extending text-based next-event prediction to dynamic video responses. This shift from *telling* to *showing* enables more intuitive answers for procedural learning and creative exploration.
+We pioneer **Video-Next-Event Prediction (VNEP)**, extending text-based next-event prediction to dynamic video responses. This shift from *telling* to *showing* enables more intuitive and customized answers for procedural learning and creative exploration. 
 
 To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model (VLM) with a Video Diffusion Model (VDM) through our **Joint-GRPO** post-training approach. Our method bridges the semantic-to-visual gap of VLM and VDM, enabling high-quality video event prediction and generation.
 
