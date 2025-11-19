@@ -1,6 +1,6 @@
-<div align="center" style="margin-top: -100px;">
+<h1 align="center">Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO</h1>
 
-# Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO
+<div align='center'>
 
 [Junhao Cheng<sup>1†</sup>](https://donahowe.github.io/),
 [Liang Hou<sup>2</sup>](https://liang-hou.github.io/),
