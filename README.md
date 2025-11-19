@@ -59,7 +59,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 - **Stage 2**: Context-faithful VDM adaptation - ensures semantic alignment and visual coherence
 
 
-## 🎯 Results
+## 🎬 Results
 
 ### 🍳 Procedural Teaching
 
@@ -79,7 +79,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 <div align="center">
 
-#### 🎬 Scenario 1: Kitchen Reaction
+#### 💫 Scenario 1
 <table>
 <tr>
 <td align="center" colspan="3"><strong>Input Video</strong></td>
@@ -88,11 +88,6 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <td align="center" colspan="3">
 <img src="assets/videos/gen_1/input.gif" width="220" height="220" style="border-radius:8px;" alt="Kitchen Input">
 </td>
-</tr>
-<tr>
-<td align="center"><strong>Realistic</strong></td>
-<td align="center"><strong>Dramatic</strong></td>
-<td align="center"><strong>Comedic</strong></td>
 </tr>
 <tr>
 <td align="center">
@@ -110,7 +105,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 </table>
 
-#### 👵 Scenario 2: Emotional Responses
+#### 💫 Scenario 2
 <table>
 <tr>
 <td align="center" colspan="3"><strong>Input Video</strong></td>
@@ -141,8 +136,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 ## 🚀 Quick Start
 
-### 🔮 Environment Setup
-
+### 🎯 Environment Setup
 
 To set up the environment for inference, you can run the following command:
 ```shell
@@ -175,7 +169,7 @@ python app.py
 
 ## 📜 Citation
 
-If you find our work helpful, please consider giving a star ⭐ and citation 📝
+If you find our work helpful, please consider giving a star 🌟 and citation 📝
 
 ```BibTeXw
 
