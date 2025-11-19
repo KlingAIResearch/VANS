@@ -23,7 +23,7 @@
 
 ## 🔎 Introduction
 
-<img src="images/teaser.png" alt="Teaser Image" style="width: 100%; height: auto;">
+<img src="assets/images/teaser.png" alt="Teaser Image" style="width: 100%; height: auto;">
 
 We pioneer **Video-Next-Event Prediction (VNEP)**, extending text-based next-event prediction to dynamic video responses. This shift from *telling* to *showing* enables more intuitive and customized answers for procedural learning and creative exploration. 
 
@@ -35,12 +35,12 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
   <table>
     <tr>
       <td align="center" width="35%">
-        <img src="images/model.png" alt="VANS Architecture" style="max-width: 100%; height: auto; max-height: 300px;">
+        <img src="assets/images/model.png" alt="VANS Architecture" style="max-width: 100%; height: auto; max-height: 300px;">
         <br>
         <em>VANS Architecture: Dual-path processing with VLM for reasoning and VDM for generation</em>
       </td>
       <td align="center" width="45%">
-        <img src="images/grpo.png" alt="Joint-GRPO" style="max-width: 100%; height: auto; max-height: 300px;">
+        <img src="assets/images/grpo.png" alt="Joint-GRPO" style="max-width: 100%; height: auto; max-height: 300px;">
         <br>
         <em>Joint-GRPO: Two-stage co-steering optimization</em>
       </td>
@@ -57,6 +57,173 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 **Joint-GRPO**: Our two-stage reinforcement learning approach:
 - **Stage 1**: Visualization-friendly VLM tuning - optimizes captions for visual plausibility
 - **Stage 2**: Context-faithful VDM adaptation - ensures semantic alignment and visual coherence
+
+
+## 🎯 Results
+
+### 🍳 Procedural Teaching
+
+<div align="center">
+
+| Case | Input Video | Question | VANS Output |
+|:----:|:-----------:|:--------:|:----------:|
+| 1 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/input.mp4" type="video/mp4"></video> | "Show me the next step for baked chicken Parmesan." | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/jointgrpo.mp4" type="video/mp4"></video> |
+| 2 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/input.mp4" type="video/mp4"></video> | "Hi, I want to make slime. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/jointgrpo.mp4" type="video/mp4"></video> |
+| 3 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/input.mp4" type="video/mp4"></video> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/jointgrpo.mp4" type="video/mp4"></video> |
+| 4 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/input.mp4" type="video/mp4"></video> | "Hi, I'm making Samosa and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/jointgrpo.mp4" type="video/mp4"></video> |
+| 5 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/input.mp4" type="video/mp4"></video> | "My bike tire is flat. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/jointgrpo.mp4" type="video/mp4"></video> |
+
+</div>
+
+---
+
+### 🔮 Multi-Future Prediction
+
+**Same input video, different questions lead to diverse future predictions:**
+
+<div align="center">
+
+#### 🎬 Scenario 1: Kitchen Reaction
+<table>
+<tr>
+<td align="center" colspan="4"><strong>Input Video</strong></td>
+</tr>
+<tr>
+<td align="center" colspan="4">
+<video width="200" height="150" controls style="border-radius:8px;">
+<source src="assets/videos/gen_1/input.mp4" type="video/mp4">
+</video>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>Realistic</strong></td>
+<td align="center"><strong>Dramatic</strong></td>
+<td align="center"><strong>Comedic</strong></td>
+</tr>
+<tr>
+<td align="center">
+<video width="120" height="120" controls style="border-radius:6px;">
+<source src="assets/videos/gen_1/con1.mp4" type="video/mp4">
+</video><br>
+<small>"What is her reaction<br>if she gets burned?"</small>
+</td>
+<td align="center">
+<video width="120" height="120" controls style="border-radius:6px;">
+<source src="assets/videos/gen_1/con2.mp4" type="video/mp4">
+</video><br>
+<small>"...in an exaggerated movie?"</small>
+</td>
+<td align="center">
+<video width="120" height="120" controls style="border-radius:6px;">
+<source src="assets/videos/gen_1/con3.mp4" type="video/mp4">
+</video><br>
+<small>"...eats something spicy?"</small>
+</td>
+</tr>
+</table>
+
+#### 👵 Scenario 2: Emotional Responses
+<table>
+<tr>
+<td align="center" colspan="3"><strong>Input Video</strong></td>
+</tr>
+<tr>
+<td align="center" colspan="3">
+<video width="200" height="150" controls style="border-radius:8px;">
+<source src="assets/videos/gen_2/input.mp4" type="video/mp4">
+</video>
+</td>
+</tr>
+<tr>
+<td align="center">
+<video width="120" height="120" controls style="border-radius:6px;">
+<source src="assets/videos/gen_2/con1.mp4" type="video/mp4">
+</video><br>
+<small>"Sees her grandson"</small>
+</td>
+<td align="center">
+<video width="120" height="120" controls style="border-radius:6px;">
+<source src="assets/videos/gen_2/con2.mp4" type="video/mp4">
+</video><br>
+<small>"Sees her husband"</small>
+</td>
+<td align="center">
+<video width="120" height="120" controls style="border-radius:6px;">
+<source src="assets/videos/gen_2/con3.mp4" type="video/mp4">
+</video><br>
+<small>"Sees death personification"</small>
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+
+### 🔮 Multi-Future Prediction
+
+**Same input video, different questions lead to diverse future predictions:**
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" colspan="3"><strong>Input Video</strong></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="3">
+        <video width="320" height="180" controls style="border-radius: 8px;">
+          <source src="assets/videos/gen_1/input.mp4" type="video/mp4">
+        </video>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table>
+    <tr>
+      <td align="center"><strong>Question 1</strong></td>
+      <td align="center"><strong>Question 2</strong></td>
+      <td align="center"><strong>Question 3</strong></td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <em>"What is her reaction if she gets burned?"</em>
+      </td>
+      <td align="center" width="33%">
+        <em>"What is her reaction if she gets burned in an exaggerated movie?"</em>
+      </td>
+      <td align="center" width="33%">
+        <em>"What is her reaction if she eats something spicy in an exaggerated movie?"</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <video width="180" height="180" controls style="border-radius: 8px;">
+          <source src="assets/videos/gen_1/con1.mp4" type="video/mp4">
+        </video>
+      </td>
+      <td align="center">
+        <video width="180" height="180" controls style="border-radius: 8px;">
+          <source src="assets/videos/gen_1/con2.mp4" type="video/mp4">
+        </video>
+      </td>
+      <td align="center">
+        <video width="180" height="180" controls style="border-radius: 8px;">
+          <source src="assets/videos/gen_1/con3.mp4" type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><em>Realistic pain reaction</em></td>
+      <td align="center"><em>Dramatic overreaction</em></td>
+      <td align="center"><em>Comedic spicy reaction</em></td>
+    </tr>
+  </table>
+</div>
+
+**Key Insight:** VANS demonstrates strong conditional generation capabilities, producing contextually appropriate responses for different hypothetical scenarios.
 
 
 ## 🚀 Quick Start
