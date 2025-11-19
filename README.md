@@ -67,11 +67,11 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 | Case | Input Video | Question | VANS Output |
 |:----:|:-----------:|:--------:|:----------:|
-| 1 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/input.mp4" type="video/mp4"></video> | "Show me the next step for baked chicken Parmesan." | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/jointgrpo.mp4" type="video/mp4"></video> |
-| 2 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/input.mp4" type="video/mp4"></video> | "Hi, I want to make slime. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/jointgrpo.mp4" type="video/mp4"></video> |
-| 3 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/input.mp4" type="video/mp4"></video> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/jointgrpo.mp4" type="video/mp4"></video> |
-| 4 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/input.mp4" type="video/mp4"></video> | "Hi, I'm making Samosa and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/jointgrpo.mp4" type="video/mp4"></video> |
-| 5 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/input.mp4" type="video/mp4"></video> | "My bike tire is flat. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/jointgrpo.mp4" type="video/mp4"></video> |
+| 1 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/input.gif" type="video/mp4"></video> | "Show me the next step for baked chicken Parmesan." | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_1/jointgrpo.gif" type="video/mp4"></video> |
+| 2 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/input.gif" type="video/mp4"></video> | "Hi, I want to make slime. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_2/jointgrpo.gif" type="video/mp4"></video> |
+| 3 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/input.gif" type="video/mp4"></video> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_3/jointgrpo.gif" type="video/mp4"></video> |
+| 4 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/input.gif" type="video/mp4"></video> | "Hi, I'm making Samosa and just uploaded a video. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_4/jointgrpo.gif" type="video/mp4"></video> |
+| 5 | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/input.gif" type="video/mp4"></video> | "My bike tire is flat. What should I do next?" | <video width="120" height="120" controls style="border-radius:6px;"><source src="assets/videos/proce_5/jointgrpo.gif" type="video/mp4"></video> |
 
 </div>
 
@@ -91,7 +91,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <tr>
 <td align="center" colspan="4">
 <video width="200" height="150" controls style="border-radius:8px;">
-<source src="assets/videos/gen_1/input.mp4" type="video/mp4">
+<source src="assets/videos/gen_1/input.gif" type="video/mp4">
 </video>
 </td>
 </tr>
@@ -103,19 +103,19 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <tr>
 <td align="center">
 <video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_1/con1.mp4" type="video/mp4">
+<source src="assets/videos/gen_1/con1.gif" type="video/mp4">
 </video><br>
 <small>"What is her reaction<br>if she gets burned?"</small>
 </td>
 <td align="center">
 <video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_1/con2.mp4" type="video/mp4">
+<source src="assets/videos/gen_1/con2.gif" type="video/mp4">
 </video><br>
 <small>"...in an exaggerated movie?"</small>
 </td>
 <td align="center">
 <video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_1/con3.mp4" type="video/mp4">
+<source src="assets/videos/gen_1/con3.gif" type="video/mp4">
 </video><br>
 <small>"...eats something spicy?"</small>
 </td>
@@ -130,26 +130,26 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <tr>
 <td align="center" colspan="3">
 <video width="200" height="150" controls style="border-radius:8px;">
-<source src="assets/videos/gen_2/input.mp4" type="video/mp4">
+<source src="assets/videos/gen_2/input.gif" type="video/mp4">
 </video>
 </td>
 </tr>
 <tr>
 <td align="center">
 <video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_2/con1.mp4" type="video/mp4">
+<source src="assets/videos/gen_2/con1.gif" type="video/mp4">
 </video><br>
 <small>"Sees her grandson"</small>
 </td>
 <td align="center">
 <video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_2/con2.mp4" type="video/mp4">
+<source src="assets/videos/gen_2/con2.gif" type="video/mp4">
 </video><br>
 <small>"Sees her husband"</small>
 </td>
 <td align="center">
 <video width="120" height="120" controls style="border-radius:6px;">
-<source src="assets/videos/gen_2/con3.mp4" type="video/mp4">
+<source src="assets/videos/gen_2/con3.gif" type="video/mp4">
 </video><br>
 <small>"Sees death personification"</small>
 </td>
@@ -173,7 +173,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
     <tr>
       <td align="center" colspan="3">
         <video width="320" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/input.mp4" type="video/mp4">
+          <source src="assets/videos/gen_1/input.gif" type="video/mp4">
         </video>
       </td>
     </tr>
@@ -201,17 +201,17 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
     <tr>
       <td align="center">
         <video width="180" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/con1.mp4" type="video/mp4">
+          <source src="assets/videos/gen_1/con1.gif" type="video/mp4">
         </video>
       </td>
       <td align="center">
         <video width="180" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/con2.mp4" type="video/mp4">
+          <source src="assets/videos/gen_1/con2.gif" type="video/mp4">
         </video>
       </td>
       <td align="center">
         <video width="180" height="180" controls style="border-radius: 8px;">
-          <source src="assets/videos/gen_1/con3.mp4" type="video/mp4">
+          <source src="assets/videos/gen_1/con3.gif" type="video/mp4">
         </video>
       </td>
     </tr>
