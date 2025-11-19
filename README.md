@@ -1,13 +1,11 @@
 <div align="center">
-
 # Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO
 
 [Junhao Cheng<sup>1†</sup>](https://donahowe.github.io/),
 [Liang Hou<sup>2</sup>](https://liang-hou.github.io/),
 [Xin Tao<sup>2</sup>](https://www.xtao.website/),
 [Jing Liao<sup>1</sup>](https://scholar.google.com/citations?user=3s9f9VIAAAAJ&hl=en)  
-<sup>1</sup>City University of Hong Kong • <sup>2</sup>Kling Team, Kuaishou Technology  
-
+<sup>1</sup>City University of Hong Kong  <sup>2</sup>Kling Team, Kuaishou Technology  
 <sup>†</sup> Work conducted during internship at Kling Team, Kuaishou Technology
 
 <a href="https://video-as-answer.github.io/" target="_blank">
@@ -36,12 +34,12 @@ To tackle VNEP, we propose **VANS**, a novel framework that aligns a Vision-Lang
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="images/model.png" alt="VANS Architecture" style="width: 100%; height: 300px; object-fit: contain;">
+        <img src="images/model.png" alt="VANS Architecture" style="max-width: 100%; height: auto; max-height: 300px;">
         <br>
         <em>VANS Architecture: Dual-path processing with VLM for reasoning and VDM for generation</em>
       </td>
       <td align="center" width="50%">
-        <img src="images/grpo.png" alt="Joint-GRPO" style="width: 100%; height: 300px; object-fit: contain;">
+        <img src="images/grpo.png" alt="Joint-GRPO" style="max-width: 100%; height: auto; max-height: 300px;">
         <br>
         <em>Joint-GRPO: Two-stage co-steering optimization</em>
       </td>
@@ -72,7 +70,7 @@ To set up the environment for inference, you can run the following command:
 
 ```
 
-### 🔮 Download Models
+### 🌎 Download Models
 
 ### 🧸 Demo
 To run local gradio demo:
