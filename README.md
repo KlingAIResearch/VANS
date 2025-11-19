@@ -92,15 +92,15 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <tr>
 <td align="center">
 <img src="assets/videos/gen_1/con1.gif" width="220" height="220" style="border-radius:6px;" alt="Realistic Reaction"><br>
-<small>"If she gets burned</small>
+<small>"What if she gets burned in her daily life?"</small>
 </td>
 <td align="center">
 <img src="assets/videos/gen_1/con2.gif" width="220" height="220" style="border-radius:6px;" alt="Dramatic Reaction"><br>
-<small>"If she gets burned in an exaggerated movie"</small>
+<small>"What if she gets burned in an exaggerated movie?"</small>
 </td>
 <td align="center">
 <img src="assets/videos/gen_1/con3.gif" width="220" height="220" style="border-radius:6px;" alt="Comedic Reaction"><br>
-<small>"If she eats something spicy in an exaggerated movie"</small>
+<small>"What if she eats something spicy in an exaggerated movie?"</small>
 </td>
 </tr>
 </table>
