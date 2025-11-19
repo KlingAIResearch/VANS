@@ -118,15 +118,15 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <tr>
 <td align="center">
 <img src="assets/videos/gen_2/con1.gif" width="220" height="220" style="border-radius:6px;" alt="Grandson Reaction"><br>
-<small>"Sees her grandson"</small>
+<small>"Show her reaction if she sees her grandson."</small>
 </td>
 <td align="center">
 <img src="assets/videos/gen_2/con2.gif" width="220" height="220" style="border-radius:6px;" alt="Husband Reaction"><br>
-<small>"Sees her husband"</small>
+<small>"Show her reaction if she sees her husband."</small>
 </td>
 <td align="center">
 <img src="assets/videos/gen_2/con3.gif" width="220" height="220" style="border-radius:6px;" alt="Death Reaction"><br>
-<small>"Sees death personification"</small>
+<small>"Show her reaction if she sees the personification of death."</small>
 </td>
 </tr>
 </table>
