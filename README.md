@@ -34,7 +34,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="35%">
+      <td align="center" width="30%">
         <img src="assets/images/model.png" alt="VANS Architecture" style="max-width: 100%; height: auto; max-height: 300px;">
         <br>
         <em>VANS Architecture: Dual-path processing with VLM for reasoning and VDM for generation</em>
