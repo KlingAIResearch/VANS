@@ -67,9 +67,9 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 | Case | Input Video | Question | VANS Output |
 |:----:|:-----------:|:--------:|:----------:|
-| 1 | <img src="assets/videos/proce_1/input.gif" width="120" height="120" style="border-radius:6px;" alt="Input Video 1"> | "Show me the next step for baked chicken Parmesan." | <img src="assets/videos/proce_1/jointgrpo.gif" width="120" height="120" style="border-radius:6px;" alt="Output Video 1"> |
-| 2 | <img src="assets/videos/proce_2/input.gif" width="120" height="120" style="border-radius:6px;" alt="Input Video 2"> | "Hi, I want to make slime. What should I do next?" | <img src="assets/videos/proce_2/jointgrpo.gif" width="120" height="120" style="border-radius:6px;" alt="Output Video 2"> |
-| 3 | <img src="assets/videos/proce_3/input.gif" width="120" height="120" style="border-radius:6px;" alt="Input Video 3"> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <img src="assets/videos/proce_3/jointgrpo.gif" width="120" height="120" style="border-radius:6px;" alt="Output Video 3"> |
+| 1 | <img src="assets/videos/proce_1/input.gif" width="220" height="220" style="border-radius:6px;" alt="Input Video 1"> | "Show me the next step for baked chicken Parmesan." | <img src="assets/videos/proce_1/jointgrpo.gif" width="220" height="220" style="border-radius:6px;" alt="Output Video 1"> |
+| 2 | <img src="assets/videos/proce_2/input.gif" width="220" height="220" style="border-radius:6px;" alt="Input Video 2"> | "Hi, I want to make slime. What should I do next?" | <img src="assets/videos/proce_2/jointgrpo.gif" width="220" height="220" style="border-radius:6px;" alt="Output Video 2"> |
+| 3 | <img src="assets/videos/proce_3/input.gif" width="220" height="220" style="border-radius:6px;" alt="Input Video 3"> | "Hey AI assistant, I'm making a paper windmill and just uploaded a video. What should I do next?" | <img src="assets/videos/proce_3/jointgrpo.gif" width="220" height="220" style="border-radius:6px;" alt="Output Video 3"> |
 
 </div>
 
@@ -86,7 +86,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 <tr>
 <td align="center" colspan="3">
-<img src="assets/videos/gen_1/input.gif" width="200" height="150" style="border-radius:8px;" alt="Kitchen Input">
+<img src="assets/videos/gen_1/input.gif" width="220" height="220" style="border-radius:8px;" alt="Kitchen Input">
 </td>
 </tr>
 <tr>
@@ -96,16 +96,16 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 <tr>
 <td align="center">
-<img src="assets/videos/gen_1/con1.gif" width="120" height="120" style="border-radius:6px;" alt="Realistic Reaction"><br>
-<small>"Gets burned?"</small>
+<img src="assets/videos/gen_1/con1.gif" width="220" height="220" style="border-radius:6px;" alt="Realistic Reaction"><br>
+<small>"If she gets burned</small>
 </td>
 <td align="center">
-<img src="assets/videos/gen_1/con2.gif" width="120" height="120" style="border-radius:6px;" alt="Dramatic Reaction"><br>
-<small>"...in an exaggerated movie?"</small>
+<img src="assets/videos/gen_1/con2.gif" width="220" height="220" style="border-radius:6px;" alt="Dramatic Reaction"><br>
+<small>"If she gets burned in an exaggerated movie"</small>
 </td>
 <td align="center">
-<img src="assets/videos/gen_1/con3.gif" width="120" height="120" style="border-radius:6px;" alt="Comedic Reaction"><br>
-<small>"...eats something spicy?"</small>
+<img src="assets/videos/gen_1/con3.gif" width="220" height="220" style="border-radius:6px;" alt="Comedic Reaction"><br>
+<small>"If she eats something spicy in an exaggerated movie"</small>
 </td>
 </tr>
 </table>
@@ -117,20 +117,20 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 </tr>
 <tr>
 <td align="center" colspan="3">
-<img src="assets/videos/gen_2/input.gif" width="200" height="150" style="border-radius:8px;" alt="Emotional Input">
+<img src="assets/videos/gen_2/input.gif" width="220" height="220" style="border-radius:8px;" alt="Emotional Input">
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="assets/videos/gen_2/con1.gif" width="120" height="120" style="border-radius:6px;" alt="Grandson Reaction"><br>
+<img src="assets/videos/gen_2/con1.gif" width="220" height="220" style="border-radius:6px;" alt="Grandson Reaction"><br>
 <small>"Sees her grandson"</small>
 </td>
 <td align="center">
-<img src="assets/videos/gen_2/con2.gif" width="120" height="120" style="border-radius:6px;" alt="Husband Reaction"><br>
+<img src="assets/videos/gen_2/con2.gif" width="220" height="220" style="border-radius:6px;" alt="Husband Reaction"><br>
 <small>"Sees her husband"</small>
 </td>
 <td align="center">
-<img src="assets/videos/gen_2/con3.gif" width="120" height="120" style="border-radius:6px;" alt="Death Reaction"><br>
+<img src="assets/videos/gen_2/con3.gif" width="220" height="220" style="border-radius:6px;" alt="Death Reaction"><br>
 <small>"Sees death personification"</small>
 </td>
 </tr>
