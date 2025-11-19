@@ -1,2 +1,96 @@
-# VANS
-Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO
+<div align="center">
+
+# Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO
+
+[Junhao Cheng<sup>1†</sup>](https://donahowe.github.io/),
+[Liang Hou<sup>2</sup>](https://liang-hou.github.io/),
+[Xin Tao<sup>2</sup>](https://www.xtao.website/),
+[Jing Liao<sup>1</sup>](https://scholar.google.com/citations?user=3s9f9VIAAAAJ&hl=en)  
+<sup>1</sup>City University of Hong Kong • <sup>2</sup>Kling Team, Kuaishou Technology  
+
+<sup>†</sup> Work conducted during internship at Kling Team, Kuaishou Technology
+
+<a href="https://video-as-answer.github.io/" target="_blank">
+    <img alt="Website" src="https://img.shields.io/badge/🌎_Website-Video--as--Answer-blue.svg" height="20" />
+</a>
+<a href="http://arxiv.org/" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/Paper-Video--as--Answer-red?logo=arxiv" height="20" />
+</a>
+<a href="https://huggingface.co/" target="_blank">
+    <img alt="HF Dataset: Video--as--Answer" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-Video--as--Answer-ffc107?color=ffc107&logoColor=white" height="20" />
+</a>
+
+</div>
+
+## 🔎 Introduction
+
+<img src="images/teaser.png" alt="Teaser Image" style="width: 100%; height: auto;">
+
+We introduce **Video-Next-Event Prediction (VNEP)**, extending traditional text-based next-event prediction to dynamic video responses. This shift from *telling* to *showing* enables more intuitive answers for procedural learning and creative exploration.
+
+To tackle VNEP, we propose **VANS**, a novel framework that aligns a Vision-Language Model (VLM) with a Video Diffusion Model (VDM) through our **Joint-GRPO** reinforcement learning approach. Our method bridges the semantic-to-visual gap, enabling high-quality video event prediction and generation.
+
+## 🏗️ Method
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/model.png" alt="VANS Architecture" style="width: 100%; height: 300px; object-fit: contain;">
+        <br>
+        <em>VANS Architecture: Dual-path processing with VLM for reasoning and VDM for generation</em>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/grpo.png" alt="Joint-GRPO" style="width: 100%; height: 300px; object-fit: contain;">
+        <br>
+        <em>Joint-GRPO: Two-stage co-steering optimization</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Key Components
+
+**VANS Architecture**: Processes input videos and questions through dual pathways:
+- **VLM Path**: Performs instruction-grounded reasoning to generate textual captions
+- **VDM Path**: Synthesizes videos conditioned on semantic captions and visual context
+
+**Joint-GRPO**: Our two-stage reinforcement learning approach:
+- **Stage 1**: Visualization-friendly VLM tuning - optimizes captions for visual plausibility
+- **Stage 2**: Context-faithful VDM adaptation - ensures semantic alignment and visual coherence
+
+
+## 🚀 Quick Start
+
+### 🔮 Environment Setup
+
+To set up the environment for inference, you can run the following command:
+
+
+To set up the environment for inference, you can run the following command:
+```shell
+
+```
+
+### 🔮 Download Models
+
+### 🧸 Demo
+To run local gradio demo:
+```shell
+python app.py
+```
+
+## 🚩 Plan
+- [ ] Release Training Codes
+- [ ] Release VANS-Data-100K dataset
+- [ ] Release Inference Codes
+- [ ] Release VANS model
+
+
+## 📜 Citation
+
+If you find our work helpful, please consider giving a star ⭐ and citation 📝
+
+```BibTeXw
+
+```
