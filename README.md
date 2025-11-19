@@ -63,15 +63,22 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 ### 🔮 Environment Setup
 
-To set up the environment for inference, you can run the following command:
-
 
 To set up the environment for inference, you can run the following command:
 ```shell
-
+git clone https://github.com/KlingTeam/VANS.git
+cd VANS
+pip install requirements.txt
 ```
 
 ### 🌎 Download Models
+
+To get started, download the VANS base models:
+- **[Qwen2.5-VL-3B](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct)** - The Vision-Language Model
+- **[Wan2.1-T2V-1.3B](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B)** - The Video Diffusion Model
+
+Then download the complete VANS model:  
+**[VANS Model Download](https://huggingface.co/)** *(Coming Soon)*
 
 ### 🧸 Demo
 To run local gradio demo:
