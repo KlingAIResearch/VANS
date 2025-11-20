@@ -15,7 +15,7 @@
 <a href="http://arxiv.org/" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/Paper-Video--as--Answer-red?logo=arxiv" height="20" />
 </a>
-<a href="https://huggingface.co/" target="_blank">
+<a href="https://huggingface.co/KlingTeam/VANS" target="_blank">
     <img alt="HF Dataset: Video--as--Answer" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-Video--as--Answer-ffc107?color=ffc107&logoColor=white" height="20" />
 </a>
 
@@ -157,7 +157,7 @@ To get started, download the VANS base models:
 - **[Wan2.1-T2V-1.3B](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B)** - The Video Diffusion Model
 
 Then download the complete VANS model:  
-**[VANS Model Download](https://huggingface.co/)** *(Coming Soon)*
+**[VANS Model Download](https://huggingface.co/KlingTeam/VANS)** *(Coming Soon)*
 
 ### 🧸 Demo
 To run local gradio demo:
