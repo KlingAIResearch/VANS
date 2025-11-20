@@ -166,11 +166,11 @@ python app.py
 ```
 
 ## 🚩 Plan
-- [ ] Release Training Codes
 - [ ] Release VANS-Data-100K dataset
-- [ ] Release VANS model V2 (Reasoning I2V)
-- [ ] Release Inference Codes
-- [ ] Release VANS model V1
+- [ ] Release VANS model
+- [ ] Release training Codes
+- [x] Release inference Codes
+- [x] Release paper
 
 
 ## 📜 Citation
