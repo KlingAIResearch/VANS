@@ -1,0 +1,17 @@
+torch==2.6.0
+torchvision==0.21.0
+opencv-python==4.11.0.86
+diffusers==0.33.1
+transformers @ git+https://github.com/huggingface/transformers.git@336dc69d63d56f232a183a3e7f52790429b871ef
+tokenizers==0.21.4
+accelerate==1.6.0
+gradio==5.49.1
+gradio_client==1.13.3
+numpy==1.26.4
+decord==0.6.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+tqdm
+easydict
+ftfy
+dashscope
