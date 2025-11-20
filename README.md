@@ -145,7 +145,7 @@ conda create -n VANS python==3.12 -y
 conda activate VANS
 
 pip install requirements.txt
-cd VANS/models_mllm/qwen-vl-utils
+cd vans/models_mllm/qwen-vl-utils
 pip install -e .[decord]
 cd ...
 ```
