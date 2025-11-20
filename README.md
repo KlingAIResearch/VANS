@@ -140,9 +140,14 @@ To set up the environment for inference, you can run the following command:
 ```shell
 git clone https://github.com/KlingTeam/VANS.git
 cd VANS
+
 conda create -n VANS python==3.12 -y
 conda activate VANS
+
 pip install requirements.txt
+cd VANS/models_mllm/qwen-vl-utils
+pip install -e .[decord]
+cd ...
 ```
 
 ### 🌎 Download Models
