@@ -12,7 +12,7 @@
 <a href="https://video-as-answer.github.io/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Website-Video--as--Answer-blue.svg" height="20" />
 </a>
-<a href="http://arxiv.org/" target="_blank">
+<a href="https://arxiv.org/abs/2511.16669" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/Paper-Video--as--Answer-red?logo=arxiv" height="20" />
 </a>
 <a href="https://huggingface.co/KlingTeam/VANS" target="_blank">
