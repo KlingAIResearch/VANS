@@ -178,13 +178,11 @@ python app.py
 If you find our work helpful, please consider giving a star 🌟 and citation 📝
 
 ```BibTeXw
-@misc{cheng2025videoasanswerpredictgeneratevideo,
-      title={Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO}, 
-      author={Junhao Cheng and Liang Hou and Xin Tao and Jing Liao},
-      year={2025},
-      eprint={2511.16669},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2511.16669}, 
+@article{cheng2025video,
+  title={Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO},
+  author={Cheng, Junhao and Hou, Liang and Tao, Xin and Liao, Jing},
+  journal={arXiv preprint arXiv:2511.16669},
+  year={2025}
+}
 }
 ```
