@@ -358,7 +358,6 @@ def clear_outputs_only():
     return "", None
 
 def stop_and_recover():
-    """强制停止当前进程并恢复上次结果"""
     print("=== FORCE STOPPING AND RECOVERING ===")
     
     process_controller.stop_current_process()
