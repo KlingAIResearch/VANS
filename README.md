@@ -18,6 +18,10 @@
 <a href="https://huggingface.co/KlingTeam/VANS" target="_blank">
     <img alt="HF Dataset: Video--as--Answer" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-Video--as--Answer-ffc107?color=ffc107&logoColor=white" height="20" />
 </a>
+<a href="https://mp.weixin.qq.com/s/yqkZ7T-JJRH1OIz28Jv5iQ" target="_blank">
+    <img alt="WeChat@量子位" src="https://img.shields.io/badge/WeChat@量子位-07C160?logo=wechat&logoColor=white" height="20" />
+</a>
+
 
 </div>
 
