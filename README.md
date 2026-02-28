@@ -172,7 +172,7 @@ python app.py
 ## 🚩 Plan
 - [ ] Release training codes
 - [x] Release VANS-Data-100K construction pipelines
-- [x] Release VANS model
+- [x] Release VANS model checkpoints
 - [x] Release inference codes
 - [x] Release paper
 
