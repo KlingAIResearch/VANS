@@ -67,7 +67,7 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 
 ## 🚩 Plan
 - [ ] Release training codes
-- [x] Release VANS-Data-100K [construction pipelines](https://huggingface.co/KlingTeam/VANS)
+- [x] Release VANS-Data-100K [construction pipelines](https://github.com/KlingAIResearch/VANS/tree/main/data_pipeline)
 - [x] Release VANS model [checkpoints](https://huggingface.co/KlingTeam/VANS/tree/main)
 - [x] Release inference codes
 - [x] Release [paper](https://arxiv.org/abs/2511.16669)
