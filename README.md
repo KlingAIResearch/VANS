@@ -170,9 +170,9 @@ python app.py
 ```
 
 ## 🚩 Plan
-- [ ] Release VANS-Data-100K dataset
-- [ ] Release VANS model
 - [ ] Release training codes
+- [x] Release VANS-Data-100K construction pipelines
+- [x] Release VANS model
 - [x] Release inference codes
 - [x] Release paper
 
