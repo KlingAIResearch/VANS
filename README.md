@@ -25,6 +25,14 @@
 
 </div>
 
+
+## 🚩 Plan
+- [ ] Release training codes
+- [x] Release VANS-Data-100K [construction pipelines](https://huggingface.co/KlingTeam/VANS)
+- [x] Release VANS model [checkpoints](https://huggingface.co/KlingTeam/VANS/tree/main)
+- [x] Release inference codes
+- [x] Release [paper](https://arxiv.org/abs/2511.16669)
+
 ## 🔎 Introduction
 
 <img src="assets/images/teaser.png" alt="Teaser Image" style="width: 100%; height: auto;">
@@ -168,13 +176,6 @@ To run local gradio demo:
 ```shell
 python app.py
 ```
-
-## 🚩 Plan
-- [ ] Release training codes
-- [x] Release VANS-Data-100K construction pipelines
-- [x] Release VANS model checkpoints
-- [x] Release inference codes
-- [x] Release paper
 
 
 ## 📜 Citation
