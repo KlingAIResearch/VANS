@@ -161,7 +161,7 @@ To get started, download the VANS base models:
 - **[Wan2.1-T2V-1.3B](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B)** - The Video Diffusion Model
 
 Then download the complete VANS model:  
-**[VANS Model Download](https://huggingface.co/KlingTeam/VANS)** *(Coming Soon)*
+**[VANS Model Download](https://huggingface.co/KlingTeam/VANS)**
 
 ### 🧸 Demo
 To run local gradio demo:
