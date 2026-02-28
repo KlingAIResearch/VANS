@@ -1,4 +1,4 @@
-# VAND-Data Pipeline
+# VANS-Data Pipeline
 
 This repository provides the VANS-DATA pipeline. It processes raw long videos, leverages Gemini Vision models to generate dense captions, constructs adjacent action pairs, and finally prompts the Gemini LLM to generate structured instructional Q&A pairs.
 
@@ -107,5 +107,6 @@ python step6.py \
     --instruction_dir ./data/processed_videos_instruction_OK \
     --output_csv ./data/COIN_final_dataset_OK.csv
 ```
+
 
 🎉 **Congratulations!** Your dataset is now ready at `./data/COIN_final_dataset_OK.csv`.
