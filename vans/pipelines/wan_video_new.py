@@ -147,8 +147,6 @@ class WanVideoPipeline(BasePipeline):
         use_mllm=False,
         mllm_query_dim=None,
         mllm_trained_ckpt_path=None,
-        grpo_mllm_trained_ckpt_path=None,
-        grpo_trained_ckpt_path=None,
         lora_config=None,
     ):
         # Redirect model path
