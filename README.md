@@ -26,12 +26,7 @@
 </div>
 
 
-## 🚩 Plan
-- [ ] Release training codes
-- [x] Release VANS-Data-100K [construction pipelines](https://huggingface.co/KlingTeam/VANS)
-- [x] Release VANS model [checkpoints](https://huggingface.co/KlingTeam/VANS/tree/main)
-- [x] Release inference codes
-- [x] Release [paper](https://arxiv.org/abs/2511.16669)
+
 
 ## 🔎 Introduction
 
@@ -70,6 +65,12 @@ To tackle VNEP, we propose **VANS**, a model that aligns a Vision-Language Model
 - **Stage 1**: Visualization-friendly VLM tuning - optimizes captions for visual plausibility
 - **Stage 2**: Context-faithful VDM adaptation - ensures semantic alignment and visual coherence
 
+## 🚩 Plan
+- [ ] Release training codes
+- [x] Release VANS-Data-100K [construction pipelines](https://huggingface.co/KlingTeam/VANS)
+- [x] Release VANS model [checkpoints](https://huggingface.co/KlingTeam/VANS/tree/main)
+- [x] Release inference codes
+- [x] Release [paper](https://arxiv.org/abs/2511.16669)
 
 ## 🎬 Results
 
